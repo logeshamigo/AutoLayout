@@ -14,6 +14,7 @@
 		716B6CCE1BC1FDB400C2C6B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716B6CCD1BC1FDB400C2C6B9 /* Images.xcassets */; };
 		716B6CD11BC1FDB400C2C6B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716B6CCF1BC1FDB400C2C6B9 /* LaunchScreen.xib */; };
 		716B6CDD1BC1FDB400C2C6B9 /* AutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B6CDC1BC1FDB400C2C6B9 /* AutoLayoutTests.m */; };
+		71F11CFC1BCAB6250017A1BF /* ATHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F11CFB1BCAB6250017A1BF /* ATHomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		716B6CD61BC1FDB400C2C6B9 /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716B6CDB1BC1FDB400C2C6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716B6CDC1BC1FDB400C2C6B9 /* AutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTests.m; sourceTree = "<group>"; };
+		71F11CFA1BCAB6250017A1BF /* ATHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHomeTableViewController.h; sourceTree = "<group>"; };
+		71F11CFB1BCAB6250017A1BF /* ATHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				716B6CC51BC1FDB400C2C6B9 /* AppDelegate.m */,
 				716B6CC71BC1FDB400C2C6B9 /* ViewController.h */,
 				716B6CC81BC1FDB400C2C6B9 /* ViewController.m */,
+				71F11CFA1BCAB6250017A1BF /* ATHomeTableViewController.h */,
+				71F11CFB1BCAB6250017A1BF /* ATHomeTableViewController.m */,
 				716B6CCA1BC1FDB400C2C6B9 /* Main.storyboard */,
 				716B6CCD1BC1FDB400C2C6B9 /* Images.xcassets */,
 				716B6CCF1BC1FDB400C2C6B9 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				716B6CC91BC1FDB400C2C6B9 /* ViewController.m in Sources */,
 				716B6CC61BC1FDB400C2C6B9 /* AppDelegate.m in Sources */,
 				716B6CC31BC1FDB400C2C6B9 /* main.m in Sources */,
+				71F11CFC1BCAB6250017A1BF /* ATHomeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				716B6CE21BC1FDB400C2C6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716B6CE31BC1FDB400C2C6B9 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				716B6CE51BC1FDB400C2C6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
