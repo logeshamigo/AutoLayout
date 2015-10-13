@@ -38,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 4;
+    return 5;
 }
 
 
@@ -64,6 +64,9 @@
         case 3:
             cell.textLabel.text = @"Center Alingment";
             break;
+        case 4:
+            cell.textLabel.text = @"Three Layer";
+            break;
         default:
             break;
     }
@@ -84,6 +87,10 @@
             break;
         case 3:
             [self performSegueWithIdentifier:@"centerAlignment" sender:self];
+            break;
+            
+        case 4:
+            [self performSegueWithIdentifier:@"threeLayer" sender:self];
             break;
         default:
             break;
