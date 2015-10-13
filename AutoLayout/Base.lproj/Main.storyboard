@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nka-1Q-CyA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nka-1Q-CyA">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -200,7 +200,121 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BWf-Ub-vj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1093" y="1387"/>
+            <point key="canvasLocation" x="1101" y="2078"/>
+        </scene>
+        <!--Size Classes-->
+        <scene sceneID="eXC-mw-E1U">
+            <objects>
+                <viewController title="Size Classes" id="cD0-jB-JcZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c8Q-5w-g0J"/>
+                        <viewControllerLayoutGuide type="bottom" id="NgM-Z4-F6r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pMe-1a-IUd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="John Mathew" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fQ-1f-zLH">
+                                <rect key="frame" x="238" y="89" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2 Days ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6e-gC-GlF">
+                                <rect key="frame" x="238" y="123" width="80" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="trialImage" translatesAutoresizingMaskIntoConstraints="NO" id="dD3-vX-SgM">
+                                <rect key="frame" x="16" y="89" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dD3-vX-SgM" secondAttribute="height" multiplier="1:1" id="Rvl-ox-ub8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="profile2" translatesAutoresizingMaskIntoConstraints="NO" id="40f-py-zdf">
+                                <rect key="frame" x="180" y="89" width="50" height="50"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dD3-vX-SgM" firstAttribute="top" secondItem="c8Q-5w-g0J" secondAttribute="bottom" constant="10" id="1Zd-wu-QIe"/>
+                            <constraint firstItem="o6e-gC-GlF" firstAttribute="leading" secondItem="40f-py-zdf" secondAttribute="trailing" constant="10" id="3Wd-cY-5OV"/>
+                            <constraint firstAttribute="trailing" secondItem="dD3-vX-SgM" secondAttribute="trailing" constant="10" id="3g1-PX-vfQ"/>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="bottom" secondItem="o6e-gC-GlF" secondAttribute="bottom" id="6g2-dk-Vii"/>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="leading" secondItem="dD3-vX-SgM" secondAttribute="leading" id="ChN-Iz-xar"/>
+                            <constraint firstItem="0fQ-1f-zLH" firstAttribute="top" secondItem="40f-py-zdf" secondAttribute="top" id="H96-YC-etF"/>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="leading" secondItem="dD3-vX-SgM" secondAttribute="trailing" constant="10" id="HBo-cw-l3v"/>
+                            <constraint firstItem="dD3-vX-SgM" firstAttribute="width" secondItem="pMe-1a-IUd" secondAttribute="width" multiplier="0.5" id="Jmw-xn-nzO"/>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="top" secondItem="dD3-vX-SgM" secondAttribute="top" constant="15" id="QrF-tI-t5j">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="dD3-vX-SgM" firstAttribute="top" secondItem="o6e-gC-GlF" secondAttribute="bottom" constant="10" id="YbM-ul-Xlh"/>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="top" secondItem="c8Q-5w-g0J" secondAttribute="bottom" constant="10" id="bM4-HZ-rSJ"/>
+                            <constraint firstItem="NgM-Z4-F6r" firstAttribute="top" secondItem="dD3-vX-SgM" secondAttribute="bottom" constant="10" id="dgf-Bf-Jfr"/>
+                            <constraint firstAttribute="centerX" secondItem="dD3-vX-SgM" secondAttribute="centerX" constant="309" id="gJ0-BT-OAc">
+                                <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="0fQ-1f-zLH" firstAttribute="leading" secondItem="40f-py-zdf" secondAttribute="trailing" constant="10" id="iJ2-PL-0V1"/>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="leading" secondItem="pMe-1a-IUd" secondAttribute="leading" constant="10" id="ilc-lS-5nZ"/>
+                            <constraint firstItem="dD3-vX-SgM" firstAttribute="leading" secondItem="pMe-1a-IUd" secondAttribute="leading" constant="10" id="qCp-QO-Sob"/>
+                            <constraint firstItem="dD3-vX-SgM" firstAttribute="leading" secondItem="pMe-1a-IUd" secondAttribute="leading" constant="10" id="sXr-uT-dYx"/>
+                            <constraint firstItem="dD3-vX-SgM" firstAttribute="top" secondItem="c8Q-5w-g0J" secondAttribute="bottom" constant="10" id="t5X-7e-6Y4">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="40f-py-zdf" firstAttribute="top" secondItem="dD3-vX-SgM" secondAttribute="bottom" constant="20" id="vsa-ZX-n98"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1Zd-wu-QIe"/>
+                                <exclude reference="3g1-PX-vfQ"/>
+                                <exclude reference="Jmw-xn-nzO"/>
+                                <exclude reference="YbM-ul-Xlh"/>
+                                <exclude reference="gJ0-BT-OAc"/>
+                                <exclude reference="qCp-QO-Sob"/>
+                                <exclude reference="sXr-uT-dYx"/>
+                                <exclude reference="t5X-7e-6Y4"/>
+                                <exclude reference="ChN-Iz-xar"/>
+                                <exclude reference="HBo-cw-l3v"/>
+                                <exclude reference="QrF-tI-t5j"/>
+                                <exclude reference="bM4-HZ-rSJ"/>
+                                <exclude reference="ilc-lS-5nZ"/>
+                                <exclude reference="vsa-ZX-n98"/>
+                                <exclude reference="dgf-Bf-Jfr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="1Zd-wu-QIe"/>
+                                <include reference="sXr-uT-dYx"/>
+                                <include reference="HBo-cw-l3v"/>
+                                <include reference="QrF-tI-t5j"/>
+                                <include reference="dgf-Bf-Jfr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="3g1-PX-vfQ"/>
+                                <include reference="YbM-ul-Xlh"/>
+                                <include reference="qCp-QO-Sob"/>
+                                <include reference="bM4-HZ-rSJ"/>
+                                <include reference="ilc-lS-5nZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Jmw-xn-nzO"/>
+                                <include reference="gJ0-BT-OAc"/>
+                                <include reference="t5X-7e-6Y4"/>
+                                <include reference="ChN-Iz-xar"/>
+                                <include reference="vsa-ZX-n98"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cms-rJ-wK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1101" y="1378"/>
         </scene>
         <!--Equal Heights-->
         <scene sceneID="Lqo-6H-6uO">
@@ -334,6 +448,7 @@
                         <segue destination="nSU-xi-TD1" kind="show" identifier="centerAlignment" id="sk3-fl-RNx"/>
                         <segue destination="aC2-m9-fqi" kind="show" identifier="threeLayer" id="vb4-AC-2ve"/>
                         <segue destination="gMS-1a-d5v" kind="show" identifier="equalHeights" id="kSP-1g-fzB"/>
+                        <segue destination="cD0-jB-JcZ" kind="show" identifier="sizeClasses" id="fFe-yX-aJk"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LLP-Z7-nju" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -408,6 +523,8 @@
     <resources>
         <image name="banner2" width="425" height="157"/>
         <image name="gallery-10_nature-my-galaxy-s4-wallpaper-hd-nature_75" width="720" height="640"/>
+        <image name="profile2" width="50" height="50"/>
+        <image name="trialImage" width="112" height="112"/>
         <image name="tweetIcon" width="32" height="21"/>
     </resources>
 </document>

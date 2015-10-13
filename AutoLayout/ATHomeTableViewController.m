@@ -62,10 +62,10 @@
             cell.textLabel.text = @"Diagnol Boxes";
             break;
         case 3:
-            cell.textLabel.text = @"Center Alingment";
+            cell.textLabel.text = @"Center Alignment";
             break;
         case 4:
-            cell.textLabel.text = @"Three Layer";
+            cell.textLabel.text = @"Size Classes";
             break;
         default:
             break;
@@ -90,7 +90,7 @@
             break;
             
         case 4:
-            [self performSegueWithIdentifier:@"threeLayer" sender:self];
+            [self performSegueWithIdentifier:@"sizeClasses" sender:self];
             break;
         default:
             break;
