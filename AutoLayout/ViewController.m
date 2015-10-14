@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) IBOutlet UITableView *commentTableView;
 @end
 
 @implementation ViewController
