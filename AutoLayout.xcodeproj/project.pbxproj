@@ -14,6 +14,7 @@
 		716B6CCE1BC1FDB400C2C6B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716B6CCD1BC1FDB400C2C6B9 /* Images.xcassets */; };
 		716B6CD11BC1FDB400C2C6B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716B6CCF1BC1FDB400C2C6B9 /* LaunchScreen.xib */; };
 		716B6CDD1BC1FDB400C2C6B9 /* AutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B6CDC1BC1FDB400C2C6B9 /* AutoLayoutTests.m */; };
+		7171DBBC1BE06B59007AD86B /* copy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7171DBBB1BE06B59007AD86B /* copy.storyboard */; };
 		71F11CFC1BCAB6250017A1BF /* ATHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F11CFB1BCAB6250017A1BF /* ATHomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		716B6CD61BC1FDB400C2C6B9 /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716B6CDB1BC1FDB400C2C6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716B6CDC1BC1FDB400C2C6B9 /* AutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTests.m; sourceTree = "<group>"; };
+		7171DBBB1BE06B59007AD86B /* copy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = copy.storyboard; sourceTree = "<group>"; };
 		71F11CFA1BCAB6250017A1BF /* ATHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHomeTableViewController.h; sourceTree = "<group>"; };
 		71F11CFB1BCAB6250017A1BF /* ATHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				716B6CCD1BC1FDB400C2C6B9 /* Images.xcassets */,
 				716B6CCF1BC1FDB400C2C6B9 /* LaunchScreen.xib */,
 				716B6CC01BC1FDB400C2C6B9 /* Supporting Files */,
+				7171DBBB1BE06B59007AD86B /* copy.storyboard */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				716B6CCC1BC1FDB400C2C6B9 /* Main.storyboard in Resources */,
+				7171DBBC1BE06B59007AD86B /* copy.storyboard in Resources */,
 				716B6CD11BC1FDB400C2C6B9 /* LaunchScreen.xib in Resources */,
 				716B6CCE1BC1FDB400C2C6B9 /* Images.xcassets in Resources */,
 			);
