@@ -38,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 6;
+    return 7;
 }
 
 
@@ -70,6 +70,8 @@
         case 5:
             cell.textLabel.text = @"Content Compression Resistance";
             break;
+        case 6:
+            cell.textLabel.text = @"Content Hugging Priority";
         default:
             break;
     }
@@ -98,6 +100,8 @@
         case 5:
             [self performSegueWithIdentifier:@"contentCompResistance" sender:self];
             break;
+        case 6:
+            [self performSegueWithIdentifier:@"contentHugPriority" sender:self];
         default:
             break;
     }
