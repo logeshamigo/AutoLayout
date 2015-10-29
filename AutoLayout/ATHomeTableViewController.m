@@ -38,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 7;
+    return 8;
 }
 
 
@@ -68,9 +68,12 @@
             cell.textLabel.text = @"Size Classes";
             break;
         case 5:
-            cell.textLabel.text = @"Content Compression Resistance";
+            cell.textLabel.text = @"Space Optimization";
             break;
         case 6:
+            cell.textLabel.text = @"Content Compression Resistance";
+            break;
+        case 7:
             cell.textLabel.text = @"Content Hugging Priority";
         default:
             break;
@@ -93,14 +96,16 @@
         case 3:
             [self performSegueWithIdentifier:@"centerAlignment" sender:self];
             break;
-            
         case 4:
             [self performSegueWithIdentifier:@"sizeClasses" sender:self];
             break;
         case 5:
-            [self performSegueWithIdentifier:@"contentCompResistance" sender:self];
+            [self performSegueWithIdentifier:@"spaceOptimization" sender:self];
             break;
         case 6:
+            [self performSegueWithIdentifier:@"contentCompResistance" sender:self];
+            break;
+        case 7:
             [self performSegueWithIdentifier:@"contentHugPriority" sender:self];
         default:
             break;
